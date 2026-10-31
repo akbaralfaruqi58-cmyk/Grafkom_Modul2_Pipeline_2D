@@ -76,6 +76,7 @@ loaded from a CDN in `web/index.html`; `serve` is optional).
 | `node tests.mjs` | **ALL CHECKS PASSED (10 ok)** | 2026-09-04 | Node v22.19.0 |
 | `draw_square` / `triangle_gap_bug` / `draw_plan` / `bench` / `compare` | **run green** -- transcripts in `Module2_EN.tex` are the actual output | 2026-09-04 | Node v22.19.0 |
 | `web/` Three.js viewer | **authored, not browser-verified on this host** (no display); loads `three@0.160.0` from jsdelivr, draws the plan + legend, exports PPM for `compare.mjs` | 2026-09-04 | -- |
+| Clone bersih: `npm install`, `npm test`, `node mytests.mjs` | **lulus**: 10 ok, 0 fail dan 9 ok, 0 gagal | 31 Oktober 2026 | Node v24.17.0, Windows 10 Pro |
 
 Before the module fully meets the MASTER Definition of Done, open `web/` in a
 browser (`npx serve .` -> `/web/`), confirm the plan and 5-category legend
