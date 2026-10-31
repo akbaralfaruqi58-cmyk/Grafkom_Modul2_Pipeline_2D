@@ -83,3 +83,16 @@ render, toggle the deuteranopia/protanopia filters (all five stay distinct),
 click **Export PPM**, and run
 `node compare.mjs out/plan_scratch.ppm plan_three.ppm` -- expect a
 high-but-finite PSNR (edge anti-aliasing only). Record the browser + version.
+
+## Toolchain
+
+Dicatat pada 31 Oktober 2026 (Lab 1, langkah 1.1).
+
+| Komponen | Versi |
+|---|---|
+| Sistem operasi | Microsoft Windows 10 Pro (versi 10.0.19045) |
+| Node.js (`node -v`) | v24.17.0 |
+| npm (`npm -v`) | 11.13.0 |
+| Git (`git --version`) | 2.54.0.windows.1 |
+| Browser | Brave 1.98.62 (Chromium 156.0.8078.74, Official Build, 64-bit) |
+| Three.js | 0.160.0 (dimuat dari CDN jsdelivr, di-pin di `package.json`) |
