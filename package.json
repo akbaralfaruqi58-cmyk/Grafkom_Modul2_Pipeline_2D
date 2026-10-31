@@ -13,9 +13,9 @@
     "serve": "npx --yes serve web"
   },
   "devDependencies": {
-    "serve": ">=14.0.0",
-    "three": ">=0.160.0"
-  },
+  "serve": ">=14.0.0",
+  "three": "0.160.0"
+},
   "dependencies": {
     "pngjs": "^7.0.0"
   }

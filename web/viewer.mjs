@@ -50,7 +50,7 @@ function build(fillSilhouette) {
       i === 0 ? shape.moveTo(x, y) : shape.lineTo(x, y);
     });
     const geo = new THREE.ShapeGeometry(shape);
-    const mat = new THREE.MeshBasicMaterial({ color: 0xe6ecf5 });
+    const mat = new THREE.MeshBasicMaterial({ color: 0xe6ecf5, side: THREE.DoubleSide });
     group.add(new THREE.Mesh(geo, mat));
   }
 
